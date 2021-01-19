@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="142" it="0" lt="139" ct="38" ts="1611032006259" s="true" lb="mtx-shop-login-用户名不存在" rc="200" rm="OK" tn="mtx-shop-登录 1-1" dt="text" by="446" sby="305" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.43.203/mtx/index.php?s=/index/user/login.html</java.net.URL>
+</httpSample>
+<httpSample t="93" it="0" lt="93" ct="0" ts="1611032006416" s="true" lb="mtx-shop-login-正例" rc="200" rm="OK" tn="mtx-shop-登录 1-1" dt="text" by="359" sby="353" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.43.203/mtx/index.php?s=/index/user/login.html</java.net.URL>
+</httpSample>
+
+</testResults>
